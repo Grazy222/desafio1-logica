@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio Logica</title>
+</head>
+<body>
+    <header>
+        <img src="./imagem/Frame 6.png" class="imagem_logo" alt="logo">
+    </header>
+    <main>
+        <section class="container">
+            
+            <div class="container_informacoes"> 
+                <textarea id="mensagemInput" placeholder="Digite seu texto"></textarea>
+            </div>
+            <div class="container_texto">
+                <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore beatae reiciendis quasi dolorum quod veritatis asperiores vero, id et molestiae placeat adipisci, voluptatum nostrum eligendi. Saepe cupiditate tenetur nostrum laborum.</p>
+            </div>
+            <div class="container_imagenFundo"></div>
+                <div class="containerBotoes">
+                    <p class="atencao"> ! Apenas Letras Maiúsculas: <span id="mensagemCriptografada"></span></p>
+                    <div class="botoes"> 
+                        <button class="btn1" onclick="criptografar()">Criptografar</button>
+                        <button class="btn2" onclick="descriptografar()">Descriptografar</button>
+                    </div>
+                    <div class="container__botao">   
+                        <p class="cripto">Mensagem criptografada: <span id="mensagemCriptografada"></span></p>
+                        <p class="descript">Mensagem descriptografada: <span id="mensagemDescriptografada"></span></p>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
